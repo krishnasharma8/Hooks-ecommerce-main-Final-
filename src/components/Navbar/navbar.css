@@ -197,3 +197,41 @@
   }
   
 }
+
+
+/* new */
+/* Add to your existing navbar.css */
+.user-initial {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #0f3460;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.profile-icon {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.logout-text {
+  margin-left: 8px;
+  cursor: pointer;
+  color: #0f3460;
+  font-weight: 500;
+}
+
+.logout-link {
+  cursor: pointer;
+}
+
+.logout-link:hover {
+  color: #d9534f;
+}
